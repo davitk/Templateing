@@ -1,0 +1,116 @@
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    float: right;
+}
+.navbar-default {
+    background: 0 0;
+    border: none !important;
+}
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+}
+.top-nav-collapse {
+    background-color: #000000;
+}
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: url("../img/4.jpg");
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    border: 1px solid #fff;
+    color: #ffffff;
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: url("../img/1.jpg");
+    background-size: cover;
+    width: 100%;
+    color: #ffffff;
+    border: 1px solid #fff;
+    background-attachment: fixed;
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+    color: #000000;
+    background: url("../img/2.jpg");
+    background-size: cover;
+    width: 100%;
+    border: 1px solid #fff;
+    background-attachment: fixed;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+    color: #000000;
+    background: url("../img/3.jpg");
+    background-size: cover;
+    width: 100%;
+    border: 1px solid #fff;
+    background-attachment: fixed;
+}
+.term-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+    color: #000000;
+    background: url("../img/5.jpeg");
+    background-size: cover;
+    width: 100%;
+    border: 1px solid #fff;
+    background-attachment: fixed;
+}
+img {
+    height: 35px;
+}
+.head {
+    position: absolute;
+    top:50%;
+    left: 0;
+    right:0;
+    margin-top: -50px;
+    width: auto;
+    height:72px;
+}
+p {
+    padding: 0 50px;
+}
