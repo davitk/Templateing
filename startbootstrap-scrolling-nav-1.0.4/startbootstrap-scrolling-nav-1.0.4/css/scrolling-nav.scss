@@ -30,7 +30,7 @@ body, html {
   background-color: #000000;
 }
 
-.intro-section {
+.intro-section,.about-section,.services-section, .contact-section, .term-section  {
   height: 100%;
   padding-top: 150px;
   text-align: center;
@@ -43,54 +43,20 @@ body, html {
 }
 
 .about-section {
-  height: 100%;
-  padding-top: 150px;
-  text-align: center;
   background: url("../img/1.jpg");
-  background-size: cover;
-  width: 100%;
-  color: #ffffff;
-  border: 1px solid #fff;
-  background-attachment: fixed;
 }
 
 .services-section {
-  height: 100%;
-  padding-top: 150px;
-  text-align: center;
-  background: #fff;
-  color: #000000;
   background: url("../img/2.jpg");
-  background-size: cover;
-  width: 100%;
-  border: 1px solid #fff;
-  background-attachment: fixed;
 }
 
 .contact-section {
-  height: 100%;
-  padding-top: 150px;
-  text-align: center;
-  background: #eee;
-  color: #000000;
   background: url("../img/3.jpg");
-  background-size: cover;
-  width: 100%;
-  border: 1px solid #fff;
-  background-attachment: fixed;
 }
 
 .term-section {
-  height: 100%;
-  padding-top: 150px;
-  text-align: center;
-  background: #fff;
-  color: #000000;
   background: url("../img/5.jpeg");
-  background-size: cover;
-  width: 100%;
-  border: 1px solid #fff;
-  background-attachment: fixed;
+
 }
 
 img {
